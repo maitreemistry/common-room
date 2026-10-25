@@ -2,6 +2,8 @@
 
 A guest-based real-time chat app built with React, Express, Socket.IO, and Redis. The application is split into exactly three Compose services: frontend, backend, and Redis.
 
+New to the codebase? Start with the [Commonroom Project Guide](PROJECT_GUIDE.md) for the use case, architecture, chat flow, Docker and Redis setup, testing details, and troubleshooting.
+
 ## Start with Docker Compose
 
 Prerequisites: Docker Desktop with Compose v2 or later. Create a local environment file and generate two independent 32-byte secrets in PowerShell:
